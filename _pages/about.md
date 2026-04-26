@@ -38,9 +38,3 @@ redirect_from:
 
 <h2>Debugging Robot Hardware</h2>
 
-
-
-<hr>
-
-
-<h2>Video Capture Algorithm</h2>
