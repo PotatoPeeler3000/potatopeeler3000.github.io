@@ -16,7 +16,7 @@ redirect_from:
 
 <h2>Perceptive Locomotion over Uneven Terrain</h2>
 <div style="display: flex; gap: 2em; align-items: flex-start;">
-  <div style="flex: 1;">
+  <div style="flex: 0 0 55%;">
     <p>I led the development of a continuous locomotion system for a bipedal robot, with the goal of enabling it to walk forward smoothly across varying terrain without stopping.
       The system relied on depth data from onboard cameras, which was transformed into a height map using a grid-based representation.
       This height map was then passed to an A* footstep planner to compute the robot’s next three steps based on the current understanding of the environment.</p>
@@ -30,8 +30,10 @@ redirect_from:
       The robot was also tested on stairs to evaluate its ability to adapt to steep and irregular steps.
       These tests demonstrated the system’s effectiveness in maintaining stable, continuous locomotion under diverse and unpredictable conditions.</p>
   </div>
-  <div style="flex-shrink: 0;">
-    <iframe width="480" height="270" src="https://www.youtube.com/embed/X6-OMfI5n9Y?autoplay=1&mute=1&loop=1&playlist=X6-OMfI5n9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div style="flex: 0 0 42%;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/X6-OMfI5n9Y?autoplay=1&mute=1&loop=1&playlist=X6-OMfI5n9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
