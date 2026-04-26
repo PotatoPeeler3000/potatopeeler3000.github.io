@@ -12,7 +12,7 @@ redirect_from:
 
 <hr>
 
-<h2>Performance Aware Computing</h2>
+<h2 style="text-align: center;">Performance Aware Computing</h2>
 
 <hr>
 
@@ -38,5 +38,5 @@ redirect_from:
 <hr>
 
 
-<h2>Debugging Robot Hardware</h2>
+<h2 style="text-align: center;">Debugging Robot Hardware</h2>
 
