@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Experience"
+title: "Portfolio"
 permalink: /
 author_profile: false
 redirect_from: 
@@ -10,7 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-<p>The following sections outline my various work experiences, including key projects and areas of responsibility.</p>
+<hr>
+
+<h2>Performance Aware Computing</h2>
 
 <hr>
 
