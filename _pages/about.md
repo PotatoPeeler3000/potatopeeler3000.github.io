@@ -28,6 +28,10 @@ redirect_from:
   The robot was also tested on stairs to evaluate its ability to adapt to steep and irregular steps.
   These tests demonstrated the system’s effectiveness in maintaining stable, continuous locomotion under diverse and unpredictable conditions.</p>
 
+<div style="margin: 1em 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/X6-OMfI5n9Y?autoplay=1&mute=1&loop=1&playlist=X6-OMfI5n9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <hr>
 
 
