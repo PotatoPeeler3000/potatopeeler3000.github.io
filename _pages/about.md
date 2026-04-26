@@ -17,18 +17,11 @@ redirect_from:
 <h2>Perceptive Locomotion over Uneven Terrain</h2>
 <div style="display: flex; gap: 0.5em; align-items: flex-start;">
   <div style="flex: 0 0 55%;">
-    <p>I led the development of a continuous locomotion system for a bipedal robot, with the goal of enabling it to walk forward smoothly across varying terrain without stopping.
-      The system relied on depth data from onboard cameras, which was transformed into a height map using a grid-based representation.
-      This height map was then passed to an A* footstep planner to compute the robot’s next three steps based on the current understanding of the environment.</p>
+    <p>The robot uses onboard depth cameras to build a grid-based height map of its surroundings. This representation is passed into an A* footstep planner, which generates the next three steps based on the current terrain.</p>
 
-    <p>To ensure adaptability, the robot replanned its steps after every single footstep
-      As the robot advanced, the updated camera perspective provided a more accurate view of the terrain ahead, allowing for better-informed planning.
-      The system retained only the immediate next step from the previous plan, discarding the rest to prioritize the most up-to-date and optimal choices.
-      This planning logic was encapsulated within a custom state machine, allowing the robot to continuously walk forward across complex environments with improved robustness and autonomy.</p>
+    <p>After every step, the robot replans using updated sensor data. Rather than committing to a full sequence, it keeps only the immediate next step and discards the rest. This allows the system to stay responsive to new obstacles and terrain changes as they come into view.</p>
 
-    <p>This system was thoroughly tested across a range of challenging terrains, including flat ground, uneven surfaces, and rough terrain modeled using cinder blocks.
-      The robot was also tested on stairs to evaluate its ability to adapt to steep and irregular steps.
-      These tests demonstrated the system’s effectiveness in maintaining stable, continuous locomotion under diverse and unpredictable conditions.</p>
+    <p>All planning and execution logic is managed by a custom state machine, enabling smooth, continuous motion in dynamic environments.</p>
   </div>
   <div style="flex: 0 0 50%;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
