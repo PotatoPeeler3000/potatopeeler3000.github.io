@@ -1,4 +1,6 @@
 ---
+layout: archive
+title: "Experience"
 permalink: /
 author_profile: true
 redirect_from: 
@@ -6,11 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-I’ve always loved learning—there’s something incredibly exciting about uncovering new ideas and pushing myself to understand things more deeply. As a software engineer, that curiosity drives me every day. I’m constantly looking for ways to improve my skills, whether it’s picking up a new programming language, experimenting with emerging technologies, or refining my approach to problem-solving. I don’t just want to write code that works—I want to write code that’s clean, efficient, and elegant. Every challenge is an opportunity to grow, and I see each step forward as part of a lifelong journey to become the best engineer I can be.
+{% include base_path %}
 
-**Career Interests**
----
+<p>The following sections outline my various work experiences, including key projects and areas of responsibility.</p>
 
-I’m especially fascinated by the intersection of machine learning and robotics, and I love the challenge of making systems that can not only learn from data but also interact with the real world. The idea of teaching a robot to adapt, make decisions, and respond to its environment is incredibly exciting to me. I enjoy diving into topics like computer vision, reinforcement learning, and control systems, always curious about how they can come together to create smarter, more capable machines.
+<hr>
 
-Outside of building and experimenting, I dedicate a lot of time to self-improvement. Whether it’s reading research papers, watching technical talks, or taking online courses, I’m constantly pushing myself to grow. I believe that being a great engineer means never getting too comfortable—there’s always something new to learn, a better way to solve a problem, or a deeper understanding to gain. For me, that journey of continuous learning is what makes this field so rewarding.
+<h2>Continuous Locomotion over Rough Terrain</h2>
+<p>I led the development of a continuous locomotion system for a bipedal robot, with the goal of enabling it to walk forward smoothly across varying terrain without stopping.
+  The system relied on depth data from onboard cameras, which was transformed into a height map using a grid-based representation.
+  This height map was then passed to an A* footstep planner to compute the robot’s next three steps based on the current understanding of the environment.</p>
+
+<p>To ensure adaptability, the robot replanned its steps after every single footstep
+  As the robot advanced, the updated camera perspective provided a more accurate view of the terrain ahead, allowing for better-informed planning.
+  The system retained only the immediate next step from the previous plan, discarding the rest to prioritize the most up-to-date and optimal choices.
+  This planning logic was encapsulated within a custom state machine, allowing the robot to continuously walk forward across complex environments with improved robustness and autonomy.</p>
+
+<p>This system was thoroughly tested across a range of challenging terrains, including flat ground, uneven surfaces, and rough terrain modeled using cinder blocks.
+  The robot was also tested on stairs to evaluate its ability to adapt to steep and irregular steps.
+  These tests demonstrated the system’s effectiveness in maintaining stable, continuous locomotion under diverse and unpredictable conditions.</p>
+
+<hr>
+
+
+<h2>Debugging Robot Hardware</h2>
+
+
+
+<hr>
+
+
+<h2>Video Capture Algorithm</h2>
