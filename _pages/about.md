@@ -14,7 +14,7 @@ redirect_from:
 
 <hr>
 
-<h2>Perceptive Locomotion over Uneven Terrain</h2>
+<h2 style="text-align: center;">Perceptive Locomotion over Uneven Terrain</h2>
 <div style="display: flex; gap: 0.5em; align-items: flex-start;">
   <div style="flex: 0 0 33%;">
     <p>The robot uses onboard depth cameras to build a grid-based height map of its surroundings. This representation is passed into an A* footstep planner, which generates the next three steps based on the current terrain.</p>
