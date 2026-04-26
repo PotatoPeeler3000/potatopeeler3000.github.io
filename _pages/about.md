@@ -14,6 +14,8 @@ redirect_from:
 
 <h2 style="text-align: center;">Performance Aware Computing</h2>
 
+<p>The SCS2 logger is a time-series logging system that records the full internal state of a robot using YoVariables, enabling deterministic replay and detailed debugging of both simulated and real-world runs.</p>
+
 <hr>
 
 <h2 style="text-align: center;">Perceptive Locomotion over Uneven Terrain</h2>
