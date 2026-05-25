@@ -42,3 +42,17 @@ redirect_from:
 
 <h2 style="text-align: center;">Debugging Robot Hardware</h2>
 
+<p>Diagnosed and resolved hardware issues across multiple robot platforms, including zeroing faults that caused incorrect joint position readings and unexpected behavior during operation. Performed hands-on disassembly of robot limbs to investigate unusual noises and locate loose components, restoring reliable function and preventing further mechanical degradation.</p>
+
+<div style="display: flex; gap: 0.5em;">
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/4tyRUl9FUVs?autoplay=1&mute=1&loop=1&playlist=4tyRUl9FUVs&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/94uOd-saVUI?autoplay=1&mute=1&loop=1&playlist=94uOd-saVUI&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+</div>
+
+<hr>
