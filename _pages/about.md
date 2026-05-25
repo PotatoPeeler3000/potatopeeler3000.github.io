@@ -50,7 +50,7 @@ redirect_from:
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
   <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/94uOd-saVUI?autoplay=1&mute=1&loop=1&playlist=94uOd-saVUI&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/rALdnkoBqvo?autoplay=1&mute=1&loop=1&playlist=rALdnkoBqvo&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
 </div>
