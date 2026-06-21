@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Nick Kitchel"
 permalink: /
 author_profile: false
 redirect_from: 
