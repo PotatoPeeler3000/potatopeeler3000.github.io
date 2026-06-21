@@ -20,11 +20,9 @@ redirect_from:
 
 <h2 style="text-align: center;">Perceptive Locomotion over Uneven Terrain</h2>
 
-<p>The robot uses onboard depth cameras to build a grid-based height map of its surroundings. This representation is passed into an A* footstep planner, which generates the next three steps based on the current terrain.</p>
+<p>Using an A* footstep planner, the robot plans its next 3 steps over the terrain. After each step the robot replans its next steps using the latest terrain map. Where all planning and execution logic happens autonomously in a custom state machine, enabling smooth, continuous motion in many environments.</p>
 
-<p>After every step, the robot replans using updated sensor data. Rather than committing to a full sequence, it keeps only the immediate next step and discards the rest. This allows the system to stay responsive to new obstacles and terrain changes as they come into view.</p>
-
-<p>All planning and execution logic is managed by a custom state machine, enabling smooth, continuous motion in dynamic environments.</p>
+<p>This approach allows the program to stay responsive to terrain changes as they come into view.</p>
 
 <div style="display: flex; gap: 0.5em;">
   <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
@@ -42,7 +40,7 @@ redirect_from:
 
 <h2 style="text-align: center;">Debugging Robot Hardware</h2>
 
-<p>Diagnosed and resolved hardware issues across multiple robot platforms, including zeroing faults that caused incorrect joint position readings and unexpected behavior during operation. Performed hands-on disassembly of robot limbs to investigate unusual noises and locate loose components, restoring reliable function and preventing further mechanical degradation.</p>
+<p>Kept robots running by tracking down and fixing hardware faults across multiple platforms. Things like joint zeroing issues and joint encoder issues were common as the robotics team builds its own hardware.</p>
 
 <div style="display: flex; gap: 0.5em;">
   <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
