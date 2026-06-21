@@ -25,11 +25,11 @@ redirect_from:
 <p>This approach allows the program to stay responsive to terrain changes as they come into view.</p>
 
 <div style="display: flex; gap: 0.5em;">
-  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden; border: 1px solid;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/X6-OMfI5n9Y?autoplay=1&mute=1&loop=1&playlist=X6-OMfI5n9Y&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
-  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden; border: 1px solid;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/E2m-DYu7yw4?autoplay=1&mute=1&loop=1&playlist=E2m-DYu7yw4&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
@@ -43,11 +43,11 @@ redirect_from:
 <p>Kept robots running by tracking down and fixing hardware faults across multiple platforms. Things like joint zeroing issues and joint encoder issues were common as the robotics team builds its own hardware.</p>
 
 <div style="display: flex; gap: 0.5em;">
-  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden; border: 1px solid;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/AwoRZCSc0VA?autoplay=1&mute=1&loop=1&playlist=AwoRZCSc0VA&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
-  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden;">
+  <div style="flex: 0 0 calc(50% - 0.25em); position: relative; padding-bottom: 28.125%; height: 0; overflow: hidden; border: 1px solid;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/rALdnkoBqvo?autoplay=1&mute=1&loop=1&playlist=rALdnkoBqvo&controls=0&modestbranding=1&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   </div>
