@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Nick Kitchel"
 permalink: /
 author_profile: false
 redirect_from: 
@@ -9,8 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-<hr>
 
 <h2 style="text-align: center;">Performance Aware Computing</h2>
 
